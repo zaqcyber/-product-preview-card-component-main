@@ -1,0 +1,67 @@
+p,a,h1,h2,h3,h4,h5,h6,div,button,body{
+  margin: 0px;
+  padding: 0px;
+  Font-size: 15px;
+}
+
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+}
+.col-md-4{
+  width: 375px;
+  text-align: left;
+  padding: 50px 70px 50px 50px;
+  color: hsla(0, 0%, 100%, 0.75);
+  letter-spacing: 1px;
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400px;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700px;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+
+img{
+  margin-bottom: 30px;
+}
+
+button{
+  margin-top: 100px;
+  border-radius: 50px;
+}
+
+.btn{
+   --bs-btn-bg: #fff;
+   border-radius:30px;
+}
+
+.sedans .btn{
+  --bs-btn-color: hsl(31, 77%, 52%);
+}
+
+.suv .btn{
+  --bs-btn-color: hsl(184, 100%, 22%);
+}
+
+.luxury .btn{
+  --bs-btn-color: hsl(179, 100%, 13%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);}
